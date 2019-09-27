@@ -1,0 +1,26 @@
+{
+  "name": "browser-gql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify index.js -o bundle.js && echo 'Please open or refresh file:///index.html'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alsofronie/browser-gql.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alsofronie/browser-gql/issues"
+  },
+  "homepage": "https://github.com/alsofronie/browser-gql#readme",
+  "devDependencies": {
+    "browserify": "^16.5.0"
+  },
+  "dependencies": {
+    "graphql": "^14.5.8"
+  }
+}
